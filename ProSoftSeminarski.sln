@@ -23,6 +23,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SesijaKlijent", "SesijaKlij
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{8E74CDE2-6DC6-47E5-BA63-276A943D8AA2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{6889753F-9690-4AFD-8AEF-AA6D965E7DF0}"
+	ProjectSection(SolutionItems) = preProject
+		..\script.sql = ..\script.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dokumentacija", "dokumentacija", "{EBC680B3-53BE-44B5-81F7-FDE1793B81EB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\siux\Downloads\Softverski sistem HA.pdf = ..\..\..\Users\siux\Downloads\Softverski sistem HA.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
